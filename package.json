@@ -1,0 +1,28 @@
+{
+  "name": "figo",
+  "description": "API wrapper for figo Connect.",
+  "version": "3.1.4",
+  "author": "figo <dev@figo.io>",
+  "license": "MIT",
+  "main": "./lib/figo.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/figo-connect/node-figo.git"
+  },
+  "devDependencies": {
+    "async": "^2.0.1",
+    "chai": "",
+    "mocha": ""
+  },
+  "engines": {
+    "node": ">=6.17.0"
+  },
+  "dependencies": {
+    "clone": "^2.1.2",
+    "lodash": "^4.17.15",
+    "winston": "^2.4.4"
+  }
+}
